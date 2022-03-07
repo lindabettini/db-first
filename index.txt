@@ -1,0 +1,18 @@
+Entity AUTO
+
+ID -> Unique, Not_null, Auto_increment -> Primary Key
+MARCA -> Varchar(25) 
+MODELLO -> Varchar(25)
+TIPO VEICOLO -> Varchar(25)
+SEGMENTO -> Varchar(25)
+CAMBIO AUTOMATICO-> Bool
+CAVALLI -> Mediumint
+CARBURANTE -> Varchar(25)
+KM -> Float
+IMMATRICOLAZIONE -> Varchar(25)
+TARGA -> Char(6)
+NUMERO PORTE  -> Tinyint
+POSTI -> Tinyint
+
+
+
