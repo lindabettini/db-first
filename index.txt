@@ -25,9 +25,9 @@ IMMATRICOLAZIONE -> Varchar(25) -> Not_null
 
 TARGA -> Char(6) -> Null , Unique
 
-NUMERO PORTE  -> Tinyint -> -> Not_null
+NUMERO PORTE  -> Tinyint -> Not_null
 
-POSTI -> Tinyint -> -> Not_null
+POSTI -> Tinyint -> Not_null
 
 
 
