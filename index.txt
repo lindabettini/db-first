@@ -11,7 +11,7 @@ TIPO VEICOLO -> Varchar(25) -> Not_null
 
 SEGMENTO -> Varchar(25) -> Not_null
 
-CAMBIO -> Varchar(25) -> Not_null, default('Manueale')
+CAMBIO -> Varchar(25) -> Not_null, default('Manuale')
 
 RUOTA DI SCORTA -> Bool -> Null
 
