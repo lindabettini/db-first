@@ -15,19 +15,28 @@ CAMBIO -> Varchar(25) -> Not_null, default('Manuale')
 
 RUOTA DI SCORTA -> Bool -> Null
 
-CAVALLI -> Mediumint -> Not_null
+CAVALLI -> Smallint -> Not_null
 
 CARBURANTE -> Varchar(25) -> Not_null
 
-KM -> Float -> Not_null
+KM -> Float(6,3) -> Not_null
 
-IMMATRICOLAZIONE -> Varchar(25) -> Not_null
+ANNO IMMATRICOLAZIONE -> Year -> Not_null
 
 TARGA -> Char(6) -> Null , Unique
 
-NUMERO PORTE  -> Tinyint -> Not_null
+NUMERO PORTE  -> Char(1) -> Not_null
 
 POSTI -> Tinyint -> Not_null
 
+PREZZO -> Float (11,2) -> Not_null
+
+SELLING_PRICE -> Float (11,2) -> Not_null
+
+STATO_CARROZZERIA -> Char(5) -> Not_null
+
+CORLOR -> Varchar(20) -> Not_null
+
+COLOR_CODE -> Char(7) -> Null
 
 
